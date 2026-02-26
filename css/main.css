@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #c8ff1b;
+    background: #ffd5e5;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1821,6 +1821,11 @@ pre code {
 .post-button {
   margin-top: 40px;
   text-align: center;
+}
+.post {
+  margin-bottom: 2rem;
+  padding: 1rem;
+/* 删除背景相关样式 */
 }
 .use-motion .post-block,
 .use-motion .pagination,
