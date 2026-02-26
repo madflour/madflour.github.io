@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ffbe2a;
+    background: #8b054e;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2800,4 +2800,21 @@ header.header {
   .pagination {
     margin-bottom: 10px;
   }
+}
+/* 仅对首页生效（通过 is_index 变量判断） */
+.post-index .post-block {
+/* 1. 取消默认边框/阴影（间隔线） */
+  border: none;
+  box-shadow: none;
+/* 2. 拉大文章间距（增大 margin） */
+  margin-bottom: 4rem; /* 调整数值可改变间距大小 */
+/* 3. 设置透明背景（中间区域） */
+  background: transparent;
+/* 4. 可选：调整内边距（若需要） */
+  padding: 20px;
+}
+/* 中间透明区域的额外样式（可选） */
+.post-index .post-block + .post-block {
+  margin-top: 2rem; /* 增大两篇文章之间的间距 */
+  background: rgba(255,255,255,0.05); /* 半透明背景（调整透明度值） */
 }
