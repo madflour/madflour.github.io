@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ffd5e5;
+    background: #73e732;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1824,8 +1824,23 @@ pre code {
 }
 .post {
   margin-bottom: 2rem;
-  padding: 1rem;
-/* 删除背景相关样式 */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+.post:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+.post-title {
+  margin-bottom: 1rem;
+}
+.post-meta {
+  margin-bottom: 1rem;
+}
+.post-content {
+  margin-bottom: 1rem;
 }
 .use-motion .post-block,
 .use-motion .pagination,
