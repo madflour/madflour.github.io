@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #d62e16;
+    background: #bfec30;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2844,4 +2844,18 @@ body {
 }
 .headband {
   display: none;
+}
+/* 针对正文内容区域 */
+.post-body,
+.content {
+  padding: 15px 25px !important; /* 上下15px，左右25px */
+  margin: 15px 0 !important; /* 与其他区块的间距 */
+}
+.posts-expand,
+.posts-grid {
+  margin-top: 68px;
+}
+.header,
+.posts-grid {
+  margin-top: 68px;
 }
