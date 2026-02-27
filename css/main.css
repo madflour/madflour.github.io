@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #20cb6b;
+    background: #046667;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2860,5 +2860,19 @@ body {
   margin-top: 68px;
 }
 .site-brand-container {
-  background-color: #607183;
+  background-color: rgba(0,0,0,0);
+}
+.site-title {
+  color: rgba(0,0,0,0);
+  font-family: 'Microsoft YaHei', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.post-button {
+  border: none !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+.post-button:hover {
+  background: transparent !important;
 }
