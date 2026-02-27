@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #046667;
+    background: #542178;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2559,7 +2559,7 @@ mark.search-keyword {
 }
 header.header {
   background: var(--content-bg-color);
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 9px 9px 9px 9px;
   box-shadow: initial;
 }
 @media (max-width: 991px) {
@@ -2596,7 +2596,7 @@ header.header {
   }
 }
 .main-inner {
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 9px 9px 9px 9px;
   box-sizing: border-box;
   width: calc(100% - 264px);
 }
@@ -2731,7 +2731,7 @@ header.header {
   }
   .sidebar-inner {
     background: var(--content-bg-color);
-    border-radius: 7px;
+    border-radius: 9px;
     box-shadow: initial;
     box-sizing: border-box;
     color: var(--text-color);
@@ -2848,7 +2848,7 @@ body {
 /* 针对正文内容区域 */
 .post-body,
 .content {
-  padding: 15px 25px !important; /* 上下15px，左右25px */
+  padding: 15px 45px !important; /* 上下15px，左右28px */
   margin: 15px 0 !important; /* 与其他区块的间距 */
 }
 .posts-expand,
@@ -2868,11 +2868,18 @@ body {
   font-size: 25px;
   font-weight: bold;
 }
-.post-button {
+a.btn {
   border: none !important;
   background: transparent !important;
   color: inherit !important;
+  transition: all 0.3s ease;
 }
-.post-button:hover {
+a.btn:hover {
   background: transparent !important;
+}
+.site-nav .menu-item a {
+  font-size: 19px !important;
+}
+.site-state-wrap .site-state-item span {
+  font-size: 15px !important;
 }
