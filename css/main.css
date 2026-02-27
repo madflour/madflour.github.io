@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #0b1fb6;
+    background: #d62e16;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2559,7 +2559,7 @@ mark.search-keyword {
 }
 header.header {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 10px 10px 10px 10px;
   box-shadow: initial;
 }
 @media (max-width: 991px) {
@@ -2596,7 +2596,7 @@ header.header {
   }
 }
 .main-inner {
-  border-radius: initial;
+  border-radius: 10px 10px 10px 10px;
   box-sizing: border-box;
   width: calc(100% - 252px);
 }
@@ -2731,7 +2731,7 @@ header.header {
   }
   .sidebar-inner {
     background: var(--content-bg-color);
-    border-radius: initial;
+    border-radius: 10px;
     box-shadow: initial;
     box-sizing: border-box;
     color: var(--text-color);
@@ -2841,4 +2841,7 @@ body {
   background-size: cover;
 /* 可以设置一个备选背景色 */
   background-color: #f0f0f0;
+}
+.headband {
+  display: none;
 }
