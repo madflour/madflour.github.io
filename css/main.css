@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #c695ff;
+    background: #49ffd0;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2886,8 +2886,13 @@ a.btn:hover {
 .post-meta-item-text {
   display: none !important;
 }
-.site-state-item:nth-child(2) {
-  display: none !important;
+/* 隐藏侧边栏分类统计 */
+.site-state-item.site-state-categories {
+  display: none;
+}
+/* 隐藏侧边栏标签统计 */
+.site-state-item.site-state-tags {
+  display: none;
 }
 .post-eof {
   width: 65%; /* 限制宽度，让左右有空间 */
