@@ -1,5 +1,5 @@
 :root {
-  --body-bg-color: #f5f7f9;
+  --body-bg-color: #eee;
   --content-bg-color: #fff;
   --card-bg-color: #f5f5f5;
   --text-color: #555;
@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #bfec30;
+    background: #20cb6b;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2559,7 +2559,7 @@ mark.search-keyword {
 }
 header.header {
   background: var(--content-bg-color);
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 7px 7px 7px 7px;
   box-shadow: initial;
 }
 @media (max-width: 991px) {
@@ -2596,9 +2596,9 @@ header.header {
   }
 }
 .main-inner {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 7px 7px 7px 7px;
   box-sizing: border-box;
-  width: calc(100% - 252px);
+  width: calc(100% - 264px);
 }
 @media (max-width: 991px) {
   .main-inner {
@@ -2607,7 +2607,7 @@ header.header {
   }
 }
 .footer-inner {
-  padding-left: 252px;
+  padding-left: 264px;
 }
 @media (max-width: 991px) {
   .footer-inner {
@@ -2724,19 +2724,19 @@ header.header {
 @media (min-width: 992px) {
   .sidebar {
     position: sticky;
-    top: 12px;
+    top: 24px;
   }
   .sidebar-toggle {
     display: none;
   }
   .sidebar-inner {
     background: var(--content-bg-color);
-    border-radius: 10px;
+    border-radius: 7px;
     box-shadow: initial;
     box-sizing: border-box;
     color: var(--text-color);
-    margin-top: 12px;
-    max-height: calc(100vh - 24px);
+    margin-top: 24px;
+    max-height: calc(100vh - 48px);
     visibility: hidden;
   }
   .site-state-item {
@@ -2858,4 +2858,7 @@ body {
 .header,
 .posts-grid {
   margin-top: 68px;
+}
+.site-brand-container {
+  background-color: #607183;
 }
