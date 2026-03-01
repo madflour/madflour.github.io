@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #fff;
+    background: #ff0399;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2608,7 +2608,7 @@ header.header {
 .main-inner {
   border-radius: 9px 9px 9px 9px;
   box-sizing: border-box;
-  width: calc(100% - 224px);
+  width: calc(100% - 212px);
 }
 @media (max-width: 991px) {
   .main-inner {
@@ -2617,7 +2617,7 @@ header.header {
   }
 }
 .footer-inner {
-  padding-left: 224px;
+  padding-left: 212px;
 }
 @media (max-width: 991px) {
   .footer-inner {
@@ -2744,7 +2744,7 @@ header.header {
 @media (min-width: 992px) {
   .sidebar {
     position: sticky;
-    top: 24px;
+    top: 12px;
   }
   .sidebar-toggle {
     display: none;
@@ -2755,8 +2755,8 @@ header.header {
     box-shadow: initial;
     box-sizing: border-box;
     color: var(--text-color);
-    margin-top: 24px;
-    max-height: calc(100vh - 48px);
+    margin-top: 12px;
+    max-height: calc(100vh - 24px);
     visibility: hidden;
   }
   .site-state-item {
