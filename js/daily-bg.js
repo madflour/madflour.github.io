@@ -30,13 +30,13 @@ const bgImages = [
     '/images/bg/bg-27.jpg',
     '/images/bg/bg-28.jpg',
     '/images/bg/bg-29.jpg',
-    '/images/bg/bg-30.jpg'
+    '/images/bg/bg-30.jpg',
+    '/images/bg/bg-31.jpg',
 ];
 
 function getTodaysBg() {
-    const now = new Date();
-    const dayKey = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
-    const index = dayKey % bgImages.length;
+    const today = new Date().getDate();
+    const index = today - 1;
     return bgImages[index];
 }
 
