@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ff0399;
+    background: #d4fbb9;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2934,4 +2934,23 @@ a.btn:hover {
 .back-to-top:hover {
   background-color: rgba(206,211,219,0.855) !important;
   color: rgba(82,47,16,0.878) !important;
+}
+.custom-underline {
+  border-bottom: 2.5px solid rgba(71,69,69,0.455); /* 2px粗、灰色、实线下划线 */
+  padding-bottom: 2.4px; /* 防止下划线与文字重叠 */
+}
+/* 虚线下划线 */
+.dashed-underline {
+  border-bottom: 2px dashed rgba(121,128,108,0.635);
+  padding-bottom: 2px;
+}
+/* 点线下划线 */
+.dotted-underline {
+  border-bottom: 2px dotted rgba(101,78,89,0.835);
+  padding-bottom: 2px;
+}
+/* 双线下划线 */
+.double-underline {
+  border-bottom: 3px double rgba(82,52,20,0.788);
+  padding-bottom: 3px;
 }
