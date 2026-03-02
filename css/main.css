@@ -1222,7 +1222,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #166e90;
+    background: #ff7579;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2744,4 +2744,10 @@ a.btn:hover {
 .double-underline {
   border-bottom: 3px double rgba(82,52,20,0.788);
   padding-bottom: 3px;
+}
+/* 强制让所有 img 标签左对齐（可针对特定类） */
+.post-body img {
+  display: inline-block !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
 }
