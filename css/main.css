@@ -1222,7 +1222,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #16ed63;
+    background: #e3ff08;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2659,7 +2659,7 @@ body {
 /* 针对正文内容区域 */
 .post-body,
 .content {
-  padding: 20px 25px !important; /* 上下15px，左右28px */
+  padding: 20px 33px !important; /* 上下15px，左右28px */
 }
 .posts-expand,
 .posts-grid {
@@ -2707,6 +2707,7 @@ a.btn:hover {
 .site-state-item.site-state-tags {
   display: none;
 }
+/* 文章分割线 */
 .post-eof {
   width: 65%; /* 限制宽度，让左右有空间 */
   margin: 68px auto;
