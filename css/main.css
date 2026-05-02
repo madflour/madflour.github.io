@@ -1222,7 +1222,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #71bb42;
+    background: #8be942;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2659,7 +2659,7 @@ body {
 /* 针对正文内容区域 */
 .post-body,
 .content {
-  padding: 20px 33px !important; /* 上下15px，左右28px */
+  padding: 20px 40px !important; /* 上下15px，左右28px */
 }
 .posts-expand,
 .posts-grid {
