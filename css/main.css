@@ -1222,7 +1222,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #2b85fa;
+    background: #387fa1;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2756,4 +2756,7 @@ a.btn:hover {
 .post-body p {
   line-height: 2; /* 段落内紧凑行距 */
   margin-bottom: 2em; /* 段落间大间距 */
+}
+.links-of-blogroll {
+  border-top: 7px dotted #b9b7b7; /* 更淡的颜色 */
 }
